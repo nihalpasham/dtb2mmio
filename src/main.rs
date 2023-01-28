@@ -32,7 +32,9 @@ fn bytes_to_u32(bytes: &[u8]) -> Result<Vec<u32>, &'static str> {
 fn main() {
     let mut buf = Vec::new();
 
-    let ph = std::env::args().nth(2).expect("please provide a peripheral name, example: i2c, spi etc.");
+    let ph = std::env::args()
+        .nth(2)
+        .expect("please provide a peripheral name, example: i2c, spi etc.");
     let mut file = fs::File::open(
         std::env::args()
             .nth(1)

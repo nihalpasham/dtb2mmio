@@ -1,7 +1,7 @@
 # dtb2mmio 
 dtb2mmio is a tiny command line utility that can parse device-tree blobs or flattened device-trees. You can quickly retrieve a peripheral's base-address and address-range or size. It a nice quality of life improvement - saves time and makes it easier in the absence of documentation (i.e. reference manuals or data-sheets). 
 
-![dtb2mmio](https://www.youtube.com/live/xJ99jrxwbTk?feature=share "dtb2mmio - parse device-trees")
+[![dtb2mmio](https://user-images.githubusercontent.com/20253082/215260982-d1f65920-f371-466e-964b-dea627f24ac3.png)](https://www.youtube.com/live/xJ99jrxwbTk?feature=share)
 
 ## Usage:
 
